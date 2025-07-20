@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Book Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="sidebar-root"></div>
+
+    <main class="main-content">
+        <header class="header" id="searchbar-root"></header>
+        <section class="book-list" id="booklist-root"></section>
+    </main>
+
+    <!-- Chatbot sẽ được gắn vào đây bởi JavaScript -->
+    <div id="chatbot-root"></div>
+
+    <!-- Nút nổi để mở chatbot -->
+    <button id="open-chatbot-button" class="floating-chatbot-button"><i class="fas fa-comment"></i></button>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
