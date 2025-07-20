@@ -53,9 +53,9 @@ pytest_cache/
 *.bak
 *.tmp
 
-# ---- Test ----
-test
-test/*
-
 # ---- Raw data ----
 data
+
+# # ---- Test ----
+# test
+# test/*
