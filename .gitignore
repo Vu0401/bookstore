@@ -1,0 +1,54 @@
+# ---- Python (FastAPI backend) ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+venv/
+.env
+.env.*
+
+# ---- Pydantic cache (v2) ----
+.pydantic/
+
+# ---- Docker ----
+*.pid
+*.seed
+docker-compose.override.yml
+docker-compose*.log
+
+# ---- VSCode & other IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Node (React frontend) ----
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Archive/Data ----
+data/archive/
+*.zip
+*.tar.gz
+
+# ---- Pytest / Coverage ----
+htmlcov/
+.tox/
+.coverage
+.cache/
+pytest_cache/
+
+# ---- Misc ----
+*.bak
+*.tmp
