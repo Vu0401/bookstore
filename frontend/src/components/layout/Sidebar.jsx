@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="logo">
         <i className="fas fa-book"></i>
-        <h1>Readflow</h1>
+        <h1>ReadFlow</h1>
       </div>
       
       <div className="nav-links">

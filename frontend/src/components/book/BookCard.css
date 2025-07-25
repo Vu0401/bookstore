@@ -100,3 +100,13 @@
     background: #ffebee;
     color: var(--danger);
   }
+
+  .book-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .book-link:hover {
+    text-decoration: none;
+  }
