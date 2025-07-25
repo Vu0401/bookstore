@@ -1,28 +1,40 @@
 # ---- Python (FastAPI backend) ----
 __pycache__/
 *.py[cod]
+*$py.class
 *.egg-info/
 *.egg
 *.log
 *.sqlite3
+.venv/
 venv/
 .env
 .env.*
-
-# ---- Pydantic cache (v2) ----
 .pydantic/
 
-# ---- Docker ----
-*.pid
-*.seed
-docker-compose.override.yml
-docker-compose*.log
+# Type checker caches
+.mypy_cache/
+.dmypy.json
+.pyre/
 
-# ---- VSCode & other IDEs ----
-.vscode/
-.idea/
-*.swp
-*.swo
+# Pytest / Coverage
+htmlcov/
+.tox/
+.coverage
+.cache/
+pytest_cache/
+
+# Alembic (optional)
+migrations/versions/
+
+# Jupyter Notebooks (optional)
+*.ipynb
+.ipynb_checkpoints/
+
+# Crash logs / debug output
+*.out
+*.err
+*.stackdump
 
 # ---- Node (React frontend) ----
 frontend/node_modules/
@@ -32,6 +44,22 @@ frontend/.env.local
 frontend/.env.development.local
 frontend/.env.test.local
 frontend/.env.production.local
+frontend/.parcel-cache/
+frontend/.turbo/
+
+# ---- Docker ----
+*.pid
+*.seed
+*.tar
+*.img
+docker-compose.override.yml
+docker-compose*.log
+
+# ---- VSCode & other IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # ---- System files ----
 .DS_Store
@@ -42,20 +70,13 @@ data/archive/
 *.zip
 *.tar.gz
 
-# ---- Pytest / Coverage ----
-htmlcov/
-.tox/
-.coverage
-.cache/
-pytest_cache/
-
 # ---- Misc ----
 *.bak
 *.tmp
 
 # ---- Raw data ----
-data
+data/
 
-# # ---- Test ----
-# test
+# ---- Test (optional) ----
+# test/
 # test/*
