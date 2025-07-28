@@ -110,3 +110,8 @@
   .book-link:hover {
     text-decoration: none;
   }
+  
+  .book-card-link {
+  text-decoration: none;
+  color: inherit;
+}
